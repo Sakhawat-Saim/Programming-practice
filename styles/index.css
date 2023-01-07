@@ -37,6 +37,7 @@
     margin-right: 230px;
     margin-bottom: 24px;
     text-align: right;
+    color: white;
 }
 
 .banner-description {
@@ -125,9 +126,88 @@ ul li:before {
     line-height: 29px;
 }
 
+.footer-section {
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 577px;
+}
 
+.left-side-footer{
+    margin-top: 130px;
+    margin-bottom: 130px;
+    margin-left: 230px;
+    margin-right: 115px;
+    
+}
 
+.right-side-footer {
+    margin-top: 130px;
+    margin-bottom: 130px;
+    margin-right: 230px;
+    margin-left: 115px;
+}
 
+.left-side-footer-header {
+    font-size: 45px;
+    margin-bottom: 16px;
+}
+
+.left-side-footer-description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 485px;
+    height: 78px;
+    margin-bottom: 24px;
+}
+
+.email {
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.phone {
+    margin-bottom: 32px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.subscribe {
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 32px;
+}
+
+.email-input {
+    padding-left: 6px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 25px;
+    border: solid gray;
+    border-width: 2px;
+    border-radius: 5px;
+    background-color: black;
+    display: block;
+    margin-bottom: 16px;
+    color: white;
+}
+
+.subscribe-btn {
+    background-color: #005FAC;
+    color: white;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+button:hover {
+    cursor: pointer;
+}
 
 
 
