@@ -1,0 +1,134 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.btn-primary {
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    color:#005FAC;
+    font-size: 20px;
+    font-weight: 700px;
+    border: none;
+    padding: 18px 35px;
+    margin-left: 780px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.banner {
+    margin: 0 150px;
+    display: flex;
+    align-items: right;
+    width: 1600px;
+    height: 808px;
+
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 65px;
+    width: 525px;
+    height: 270px;
+    margin-top: 216px;
+    margin-left: 750px;
+    margin-right: 230px;
+    margin-bottom: 24px;
+    text-align: right;
+}
+
+.banner-description {
+    color: #FFFFFF;
+    font-size: 16px;
+   
+    margin-right: 120px;
+    font-weight: 400;
+    width: 494px;
+    height: 78px;
+    margin-top: 16px;
+    text-align: right;
+    margin-left: 780px;
+}
+
+.header {
+    background-color: #FFF8F3;
+    background-image: url("../images/banner/banner3.png");
+   
+}
+
+.first-section {
+    display: flex;
+    margin: 130px 200px;
+    justify-content: space-between;
+}
+
+.goal-section {
+    margin-top: 300px;
+    margin-left: 60px;
+}
+
+.header-goal {
+    width: 288px;
+    height: 94px;
+    font-size: 40px;
+    font-weight: 700;
+
+}
+
+.description-goal {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    line-height: 26px;
+    font-weight: 16px;
+}
+
+ul {
+    list-style: none;
+    line-height: 26px;
+}
+
+ul li:before {
+    content: '✓';
+    color: greenyellow;
+}
+
+.my-plans-header {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.skill-container {
+    display: flex;
+    gap: 24px;
+    /* align-items: center; */
+    justify-content: space-around;
+    margin: 50px 230px;
+}
+
+.skill-title {
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+.skill {
+    text-align: center;
+}
+
+.skill-description {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+}
+
+
+
+
+
+
+
+
